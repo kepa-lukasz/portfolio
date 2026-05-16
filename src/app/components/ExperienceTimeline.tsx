@@ -4,7 +4,7 @@ import { Briefcase, GraduationCap } from "lucide-react";
 const experiences = [
   {
     type: "work",
-    title: "Wsparcie informatyczne",
+    title: "IT Administrator",
     company: "5 Żywiołów",
     period: "2025 – teraz",
     startYear: 2025,
@@ -24,21 +24,21 @@ const experiences = [
     company: "Techsquare Wrocław",
     period: "2023 – 2024",
     startYear: 2023,
-    description: "Projekt i realizacja aplikacji internetowych w React i Angular",
+    description: "Projekt i realizacja aplikacji internetowych w React i Angular w oparciu o metodykę zwinną Scrum.",
   },
   {
     type: "education",
-    title: "technikum",
-    company: "Politechnika Opolska",
+    title: "Technik Informatyk & programista",
+    company: "Elektryczniak Opole",
     period: "2019 – 2023",
     startYear: 2019,
-    description: "Technik informatyk i technik programista w najlepszym technikum na opolszczyźnie ",
+    description: "Najlepsze technikum na opolszczyźnie",
   },
   {
     type: "education",
-    title: "Politechnika opolska",
-    company: "Zespół Szkół Technicznych, Opole",
-    period: "2023 – 2019",
+    title: "Studia inż. Informatyki",
+    company: "Politechnika Opolska",
+    period: "2023 – 2027",
     startYear: 2019,
     description: "Zdobywanie wiedzy i twardych umiejętności, w lutym 2027 tytuł inżyniera",
   },
@@ -171,11 +171,8 @@ export default function ExperienceTimeline() {
           transition={{ duration: 0.6 }}
           className="mb-12 sm:mb-20 text-center"
         >
-          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white mb-4">
-            Professional{" "}
-            <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-              Journey
-            </span>
+           <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white mb-4">
+            Edukacja i <span className="bg-gradient-to-r from-fuchsia-400 to-pink-400 bg-clip-text text-transparent italic font-serif">doświadczenie</span>
           </h2>
         </motion.div>
 

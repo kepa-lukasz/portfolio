@@ -6,7 +6,7 @@ export default function ContactSection() {
     <section id="contact" className="relative py-32 px-6 overflow-hidden">
       {/* Dramatic Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0a0015] via-[#1a0b2e] to-[#000000]">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[1000px] bg-gradient-to-r from-violet-600/30 via-fuchsia-600/40 to-purple-600/30 rounded-full blur-[150px] animate-pulse" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[50vw] h-[75vh] bg-gradient-to-r from-violet-600/30 via-fuchsia-600/40 to-purple-600/30 rounded-full blur-[150px] animate-pulse" />
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto">
@@ -71,8 +71,7 @@ export default function ContactSection() {
                 </a>
               </motion.div>
 
-              {/* Social Icons - Floating 3D Style */}
-              
+             
             </div>
 
             {/* Specular Edge Highlight */}
@@ -85,16 +84,7 @@ export default function ContactSection() {
           <div className="absolute inset-0 bg-gradient-to-r from-violet-600/40 via-fuchsia-600/40 to-purple-600/40 rounded-[3rem] blur-[80px] opacity-60 -z-10" />
         </motion.div>
 
-        {/* Footer Text */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.8 }}
-          className="mt-12 sm:mt-16 text-center px-4"
-        >
-    
-        </motion.div>
+       
       </div>
     </section>
   );

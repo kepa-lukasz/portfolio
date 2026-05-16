@@ -21,7 +21,7 @@ const projects = [
     tags: ["Java", "spring boot", "REST Api"],
     gradient: "from-blue-500/30 to-cyan-500/30",
     link: "https://germancrosswords.lukaszkepa.pl/",
-    badge: "MVP",   // ← pojawi się wyróżniony tag
+    badge: "MVP",
   },
   {
     title: "Interaktywne muzeum w Białej",
@@ -30,14 +30,13 @@ const projects = [
     tags: ["Python", "Ubuntu"],
     gradient: "from-violet-500/30 to-purple-500/30",
     status: "realizowane",
-
     badge: "W realizacji"
   },
   {
     title: "Asystent teamleda AI",
     description: "Praca inżynierska",
     image: ai,
-    tags: [],
+    tags: ["Herbert", "ML",],
     gradient: "from-fuchsia-500/30 to-pink-500/30",
     status: "realizowane",
     badge: "W realizacji"

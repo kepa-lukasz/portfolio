@@ -29,9 +29,9 @@ export default function HeroSection() {
               className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black text-white tracking-tight leading-none"
               style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}
             >
-              Cześć,<br />
+              Cześć, jestem <br />
               <span className="bg-gradient-to-r from-cyan-400 via-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
-                jestem Łukasz
+                Łukasz
               </span>
             </motion.h1>
             <motion.p

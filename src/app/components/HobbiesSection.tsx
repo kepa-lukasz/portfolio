@@ -36,7 +36,7 @@ const hobbies = [
 
 export default function HobbiesSection() {
   return (
-    <section className="relative py-32 px-6 overflow-hidden">
+    <section className="relative py-48 px-6 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#1a0b2e] via-[#0f0520] to-[#0a0015]">
         <div className="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-gradient-to-tl from-fuchsia-600/20 to-transparent rounded-full blur-[120px]" />
